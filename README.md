@@ -4,11 +4,11 @@
 
 A doctorate is an advanced academic degree awarded by universities that demonstrates the recipient's mastery in a certain field of study. In this project, the main goal is to solve the following problems about doctorates using `plotly` and `dash` visualization in Python. All of the doctorates in the problems were pursued in the United States.
 
-- The number of doctorate-granting institutions and doctorate recipients over time.
-- The distribution of educational resources by states in 2017.
-- The debt level of doctorate recipients for each field of study over time.
-- The proportion of sex and field of study for doctorate recipients over time.
-- The median expected salary for doctorate recipients by employment sectors.
+- The number of doctorate-granting institutions and doctorate recipients over time. [plot](https://chart-studio.plotly.com/~Mingxuan-Yang/6/#/)
+- The distribution of educational resources by states in 2017. [plot](https://doctorate-distribution.herokuapp.com/)
+- The debt level of doctorate recipients for each field of study over time. [plot](https://doctorate-characteristic-1.herokuapp.com/)
+- The proportion of sex and field of study for doctorate recipients over time. [plot](https://doctorate-characteristic-1.herokuapp.com/)
+- The median expected salary for doctorate recipients by employment sectors. [plot](https://doctorate-salary.herokuapp.com/)
 
 ## Data
 
