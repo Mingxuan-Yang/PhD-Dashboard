@@ -1,5 +1,7 @@
 # PhD Dashboard
 
+*Project Date: 2020-11-06*
+
 ## Introduction
 
 A doctorate is an advanced academic degree awarded by universities that demonstrates the recipient's mastery in a certain field of study. In this project, the main goal is to solve the following problems about doctorates using `plotly` and `dash` visualization in Python. All of the doctorates in the problems were pursued in the United States.
