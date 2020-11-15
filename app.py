@@ -159,7 +159,7 @@ if session == 'Debt and Salary':
 
     # sidebar
     st.sidebar.subheader("Bar Plot Parameter:")
-    year3 =  st.sidebar.slider('Year:', 2008, 2017, 2008)
+    year3 =  st.sidebar.slider('Year:', 2008, 2017, 2017)
     st.sidebar.subheader("Scatter Plot Parameter:")
     secs = st.sidebar.multiselect('Employment Sectors:', sectors, default = sectors)
     
