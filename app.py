@@ -33,7 +33,7 @@ if session == "Welcome!":
     - Features
     - Debt and Salary
     
-    The codes can be found at Mingxuan Yang's [Github repository]().""")
+    The codes can be found at Mingxuan Yang's [Github repository](https://github.com/Mingxuan-Yang/PhD-Dashboard).""")
     
 if session == "Overview":
     
