@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A doctorate is an advanced academic degree awarded by universities that demonstrates the recipient's mastery in a certain field of study. In this project, the main goal is to solve the following problems about doctorates using `plotly` and `dash` visualization in Python. All of the doctorates in the problems were pursued in the United States.
+A doctorate is an advanced academic degree awarded by universities that demonstrates the recipient's mastery in a certain field of study. In this project, the main goal is to solve the following problems about doctorates using `plotly`, `dash` and `streamlit` visualization in Python. All of the doctorates in the problems were pursued in the United States.
 
 - The number of doctorate-granting institutions and doctorate recipients over time. [plot](https://chart-studio.plotly.com/~Mingxuan-Yang/6/#/)
 - The distribution of educational resources by states in 2017. [plot](https://doctorate-distribution.herokuapp.com/)
@@ -15,3 +15,13 @@ A doctorate is an advanced academic degree awarded by universities that demonstr
 ## Data
 
 The dataset [PhDs awarded in the US](https://ncses.nsf.gov/pubs/nsf19301/data) is applied. It contains 72 tables about the demographic characteristics, educational history, sources of financial support, and postgraduation plans of doctorate recipients. Only a small fraction of the tables will be used based on the problems.
+
+## Dashboard
+
+The dashboard is constructed through `streamlit` and can be obtained by running the following code in the terminal:
+
+```
+streamlit run app.py
+```
+
+This dashboard is also deployed through Heroku at [this link](https://phd-dashboard.herokuapp.com/).
