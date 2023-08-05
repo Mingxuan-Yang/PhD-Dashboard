@@ -165,7 +165,7 @@ if session == 'Debt and Salary':
     
     # figure
     ddf = df3a[['Debt Level', str(year3), 'Field of Study']]
-    ddf = pd.merge(ddf, ddf.groupby('Field of Study').agg(np.sum).reset_index(), on = 'Field of Study')
+    ddf = pd.merge(ddf, ddf.groupby('Field of Study')[str(year3)].agg(np.sum).reset_index(), on = 'Field of Study')
     ddf[str(year3)] = round(ddf[str(year3) + '_x']/ddf[str(year3) + '_y']*100, 2)
     fig4 = px.bar(ddf[['Debt Level', str(year3), 'Field of Study']],
                  x = 'Field of Study', 
