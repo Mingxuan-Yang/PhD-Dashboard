@@ -89,7 +89,7 @@ if session == 'Features':
     name = ['Total', 'Life Sciences', 'Physical Sciences and Earth Sciences', 'Mathematics and Computer Sciences', 
             'Psychology and Social Sciences', 'Engineering', 'Education', 'Humanities and Arts', 'Other']
     for i in range(9):
-        df2[name[i]] = df2.iloc[:, (i*2+1):(i*2+3)].sum(axis = 1, skipna = False) 
+        df2[name[i]] = df2.iloc[:, (i*2+1):(i*2+3)].sum(axis = 1) 
     df2 = df2[['State'] + name]
 
     # add state code
