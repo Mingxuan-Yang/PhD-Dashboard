@@ -31,4 +31,4 @@ The dashboard can be obtained by running the following code in the terminal:
 streamlit run app.py
 ```
 
-This dashboard is also deployed through Streamlit Community Cloud at [this link](https://mingxuan-yang-phd-dashboard-app-onor3b.streamlit.app/).
+This dashboard is also deployed through Streamlit Community Cloud at [this link](https://phd-dashboard-mingxuan-yang.streamlit.app/).
